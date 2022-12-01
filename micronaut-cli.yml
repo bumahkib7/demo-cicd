@@ -1,5 +1,5 @@
 applicationType: default
-defaultPackage: code.refractor
+defaultPackage: code.refactor
 testFramework: junit
 sourceLanguage: java
 buildTool: gradle

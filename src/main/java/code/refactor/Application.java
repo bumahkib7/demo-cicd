@@ -1,4 +1,4 @@
-package code.refractor;
+package code.refactor;
 
 import io.micronaut.runtime.Micronaut;
 

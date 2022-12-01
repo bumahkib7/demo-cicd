@@ -1,4 +1,4 @@
-package code.refractor;
+package code.refactor;
 
 import io.micronaut.runtime.EmbeddedApplication;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
