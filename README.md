@@ -1,6 +1,6 @@
 [![Java CI with Gradle (Groovy)](https://github.com/bumahkib7/demo-cicd/actions/workflows/gradle.yml/badge.svg)](https://github.com/bumahkib7/demo-cicd/actions/workflows/gradle.yml)
 
-## Micronaut 3.7.4 Documentation
+# Micronaut 3.7.4 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.7.4/guide/index.html)
 - [API Reference](https://docs.micronaut.io/3.7.4/api/index.html)
