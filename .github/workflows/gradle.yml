@@ -46,7 +46,7 @@ jobs:
           name: Build Artifacts
           path: |
             **/build/reports
-        name: 'Write Config & Key Files'
+      - name: 'Write Config & Key Files'
         run: |
           mkdir ~/.oci
           echo "[DEFAULT]" >> ~/.oci/config
