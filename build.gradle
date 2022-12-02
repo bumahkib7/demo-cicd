@@ -11,13 +11,14 @@ repositories {
 }
 
 dependencies {
+  implementation 'org.spockframework:spock-core:2.3-groovy-4.0'
   annotationProcessor("io.micronaut:micronaut-http-validation")
   implementation("io.micronaut:micronaut-http-client")
   implementation("io.micronaut:micronaut-jackson-databind")
   implementation("jakarta.annotation:jakarta.annotation-api")
   runtimeOnly("ch.qos.logback:logback-classic")
   implementation("io.micronaut:micronaut-validation")
-
+  testImplementation("io.micronaut:micronaut-http-client")
 }
 
 
@@ -32,7 +33,7 @@ java {
 graalvmNative.toolchainDetection = false
 micronaut {
   runtime("netty")
-  testRuntime("junit5")
+  testRuntime("spock2")
   processing {
     incremental(true)
     annotations("code.refractor.*")
